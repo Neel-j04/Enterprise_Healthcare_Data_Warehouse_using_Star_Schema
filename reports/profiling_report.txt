@@ -1,0 +1,400 @@
+================================================================================
+HEALTHCARE DATA WAREHOUSE
+DATA PROFILING REPORT
+================================================================================
+Generated : 2026-06-30 10:19:15.861824
+
+================================================================================
+TABLE : dim_patient_raw
+================================================================================
+Rows : 500,000
+Columns : 15
+
+Duplicate Rows : 0
+
+NULL VALUES
+PatientKey                     0
+PatientID                      0
+FirstName                      0
+LastName                       0
+Gender                         0
+Age                            0
+BloodType                      0
+MaritalStatus                  0
+Ethnicity                      0
+PhoneNumber                    0
+City                           0
+State                          0
+ZipCode                        0
+IsActive                       0
+RegistrationYear               0
+
+DATA TYPES
+PatientKey                     int64
+PatientID                      str
+FirstName                      str
+LastName                       str
+Gender                         str
+Age                            int64
+BloodType                      str
+MaritalStatus                  str
+Ethnicity                      str
+PhoneNumber                    str
+City                           str
+State                          str
+ZipCode                        int64
+IsActive                       bool
+RegistrationYear               int64
+
+Invalid Age : 0
+
+
+================================================================================
+TABLE : dim_doctor_raw
+================================================================================
+Rows : 2,000
+Columns : 13
+
+Duplicate Rows : 0
+
+NULL VALUES
+DoctorKey                      0
+DoctorID                       0
+FirstName                      0
+LastName                       0
+FullName                       0
+Gender                         0
+Specialization                 0
+Qualification                  0
+ExperienceYears                0
+DepartmentKey                  0
+HospitalKey                    0
+ConsultationFee                0
+IsActive                       0
+
+DATA TYPES
+DoctorKey                      int64
+DoctorID                       str
+FirstName                      str
+LastName                       str
+FullName                       str
+Gender                         str
+Specialization                 str
+Qualification                  str
+ExperienceYears                int64
+DepartmentKey                  int64
+HospitalKey                    int64
+ConsultationFee                int64
+IsActive                       bool
+
+Invalid Experience : 0
+
+
+================================================================================
+TABLE : dim_hospital_raw
+================================================================================
+Rows : 15
+Columns : 10
+
+Duplicate Rows : 0
+
+NULL VALUES
+HospitalKey                    0
+HospitalID                     0
+HospitalName                   0
+HospitalType                   0
+City                           0
+State                          0
+BedCapacity                    0
+AccreditationStatus            0
+FoundedYear                    0
+IsActive                       0
+
+DATA TYPES
+HospitalKey                    int64
+HospitalID                     str
+HospitalName                   str
+HospitalType                   str
+City                           str
+State                          str
+BedCapacity                    int64
+AccreditationStatus            str
+FoundedYear                    int64
+IsActive                       bool
+
+Invalid Bed Capacity : 0
+
+
+================================================================================
+TABLE : dim_department_raw
+================================================================================
+Rows : 20
+Columns : 9
+
+Duplicate Rows : 0
+
+NULL VALUES
+DepartmentKey                  0
+DepartmentID                   0
+DepartmentName                 0
+DepartmentType                 0
+FloorNumber                    0
+HospitalKey                    0
+TotalBeds                      0
+AnnualBudgetUSD                0
+IsActive                       0
+
+DATA TYPES
+DepartmentKey                  int64
+DepartmentID                   str
+DepartmentName                 str
+DepartmentType                 str
+FloorNumber                    int64
+HospitalKey                    int64
+TotalBeds                      int64
+AnnualBudgetUSD                int64
+IsActive                       bool
+
+
+
+================================================================================
+TABLE : dim_treatment_raw
+================================================================================
+Rows : 30
+Columns : 10
+
+Duplicate Rows : 0
+
+NULL VALUES
+TreatmentKey                   0
+TreatmentID                    0
+TreatmentName                  0
+Department                     0
+StandardCostMin                0
+StandardCostMax                0
+DurationHours                  0
+RequiresHospitalization        0
+RequiresAnesthesia             0
+IsActive                       0
+
+DATA TYPES
+TreatmentKey                   int64
+TreatmentID                    str
+TreatmentName                  str
+Department                     str
+StandardCostMin                int64
+StandardCostMax                int64
+DurationHours                  float64
+RequiresHospitalization        bool
+RequiresAnesthesia             bool
+IsActive                       bool
+
+Invalid Cost Range : 0
+
+
+================================================================================
+TABLE : dim_medicine_raw
+================================================================================
+Rows : 25
+Columns : 11
+
+Duplicate Rows : 0
+
+NULL VALUES
+MedicineKey                    0
+MedicineID                     0
+MedicineName                   0
+Category                       0
+RouteOfAdmin                   0
+UnitCostMin                    0
+UnitCostMax                    0
+Manufacturer                   0
+RequiresPrescription           0
+IsControlled                   0
+IsActive                       0
+
+DATA TYPES
+MedicineKey                    int64
+MedicineID                     str
+MedicineName                   str
+Category                       str
+RouteOfAdmin                   str
+UnitCostMin                    int64
+UnitCostMax                    int64
+Manufacturer                   str
+RequiresPrescription           bool
+IsControlled                   bool
+IsActive                       bool
+
+Invalid Price Range : 0
+
+
+================================================================================
+TABLE : dim_insurance_raw
+================================================================================
+Rows : 15
+Columns : 11
+
+Duplicate Rows : 0
+
+NULL VALUES
+InsuranceKey                   0
+InsuranceID                    0
+ProviderName                   0
+PlanType                       0
+DeductibleUSD                  0
+CopayUSD                       0
+CoinsurancePct                 0
+MaxOutOfPocketUSD              0
+CoverageType                   0
+IsGovernmentPlan               0
+IsActive                       0
+
+DATA TYPES
+InsuranceKey                   int64
+InsuranceID                    str
+ProviderName                   str
+PlanType                       str
+DeductibleUSD                  int64
+CopayUSD                       int64
+CoinsurancePct                 int64
+MaxOutOfPocketUSD              int64
+CoverageType                   str
+IsGovernmentPlan               bool
+IsActive                       bool
+
+
+
+================================================================================
+TABLE : dim_date_raw
+================================================================================
+Rows : 3,653
+Columns : 13
+
+Duplicate Rows : 0
+
+NULL VALUES
+DateKey                        0
+FullDate                       0
+Day                            0
+DayName                        0
+Week                           0
+Month                          0
+MonthName                      0
+Quarter                        0
+QuarterName                    0
+Year                           0
+IsWeekend                      0
+FiscalYear                     0
+FiscalQuarter                  0
+
+DATA TYPES
+DateKey                        int64
+FullDate                       str
+Day                            int64
+DayName                        str
+Week                           int64
+Month                          int64
+MonthName                      str
+Quarter                        int64
+QuarterName                    str
+Year                           int64
+IsWeekend                      bool
+FiscalYear                     int64
+FiscalQuarter                  int64
+
+
+
+================================================================================
+TABLE : fact_patient_visit_raw
+================================================================================
+Rows : 10,000,000
+Columns : 36
+
+Duplicate Rows : 0
+
+NULL VALUES
+VisitKey                       0
+VisitID                        0
+PatientKey                     0
+DoctorKey                      0
+DepartmentKey                  0
+HospitalKey                    0
+TreatmentKey                   0
+MedicineKey                    0
+InsuranceKey                   0
+DateKey                        0
+VisitType                      0
+VisitStatus                    0
+AdmissionSource                0
+DischargeDisposition           0
+PrimaryDiagnosis               0
+SecondaryDiagnosis             384832
+SeverityLevel                  0
+LengthOfStayDays               0
+MedicineQuantity               0
+TreatmentCostUSD               0
+MedicineCostUSD                0
+RoomChargeUSD                  0
+LabChargeUSD                   0
+MiscChargeUSD                  0
+TotalChargeUSD                 0
+DiscountAmtUSD                 0
+InsuranceCoverageUSD           0
+PatientPaidUSD                 0
+OutstandingAmtUSD              0
+SatisfactionScore              0
+ReadmissionFlag                0
+IsEmergency                    0
+HasSurgery                     0
+HasICUStay                     0
+ICUDays                        0
+WaitTimeMinutes                0
+
+DATA TYPES
+VisitKey                       int64
+VisitID                        str
+PatientKey                     int64
+DoctorKey                      int64
+DepartmentKey                  int64
+HospitalKey                    int64
+TreatmentKey                   int64
+MedicineKey                    int64
+InsuranceKey                   int64
+DateKey                        int64
+VisitType                      str
+VisitStatus                    str
+AdmissionSource                str
+DischargeDisposition           str
+PrimaryDiagnosis               str
+SecondaryDiagnosis             str
+SeverityLevel                  str
+LengthOfStayDays               int64
+MedicineQuantity               int64
+TreatmentCostUSD               int64
+MedicineCostUSD                int64
+RoomChargeUSD                  int64
+LabChargeUSD                   int64
+MiscChargeUSD                  int64
+TotalChargeUSD                 int64
+DiscountAmtUSD                 int64
+InsuranceCoverageUSD           int64
+PatientPaidUSD                 int64
+OutstandingAmtUSD              int64
+SatisfactionScore              int64
+ReadmissionFlag                int64
+IsEmergency                    int64
+HasSurgery                     int64
+HasICUStay                     int64
+ICUDays                        int64
+WaitTimeMinutes                int64
+
+
+
+================================================================================
+OVERALL DATA QUALITY
+================================================================================
+Passed Checks : 14
+Total Checks  : 14
+Quality Score : 100.00%
+================================================================================
