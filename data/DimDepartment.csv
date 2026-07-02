@@ -1,0 +1,21 @@
+DepartmentKey,DepartmentID,DepartmentName,DepartmentType,FloorNumber,HospitalKey,TotalBeds,AnnualBudgetUSD,IsActive
+1,DEPT001,Cardiology,Medical,9,15,101,22260871,True
+2,DEPT002,Neurology,Medical,7,7,31,33585946,True
+3,DEPT003,Orthopedics,Surgical,4,3,98,32894228,True
+4,DEPT004,Oncology,Medical,9,13,10,23819262,True
+5,DEPT005,Pediatrics,Medical,4,10,97,42826460,True
+6,DEPT006,Emergency,Emergency,3,11,96,28479187,True
+7,DEPT007,Radiology,Diagnostic,9,2,95,4420271,True
+8,DEPT008,Pathology,Diagnostic,4,5,83,38367443,True
+9,DEPT009,Obstetrics,Surgical,1,12,61,28942730,True
+10,DEPT010,Dermatology,Medical,5,13,87,31918556,True
+11,DEPT011,Gastroenterology,Medical,8,7,40,28485979,True
+12,DEPT012,Pulmonology,Medical,2,13,95,27902180,True
+13,DEPT013,Urology,Surgical,5,13,71,4983038,True
+14,DEPT014,Nephrology,Medical,2,6,60,28180754,True
+15,DEPT015,Endocrinology,Medical,7,14,65,39848174,True
+16,DEPT016,Psychiatry,Medical,5,5,72,15545529,True
+17,DEPT017,Ophthalmology,Surgical,3,4,14,30340493,True
+18,DEPT018,ENT,Surgical,3,11,25,2025482,True
+19,DEPT019,Rheumatology,Medical,6,10,37,17701210,True
+20,DEPT020,ICU,Critical Care,7,3,22,22117510,True

@@ -1,0 +1,31 @@
+TreatmentKey,TreatmentID,TreatmentName,Department,StandardCostMin,StandardCostMax,DurationHours,RequiresHospitalization,RequiresAnesthesia,IsActive
+1,TRT001,Angioplasty,Cardiology,8000,25000,6.52,True,False,True
+2,TRT002,Bypass Surgery,Cardiology,30000,100000,3.23,False,True,True
+3,TRT003,MRI Scan,Radiology,500,3000,8.29,False,True,True
+4,TRT004,CT Scan,Radiology,300,2000,6.25,False,False,True
+5,TRT005,Chemotherapy,Oncology,2000,15000,7.67,True,True,True
+6,TRT006,Radiation Therapy,Oncology,1500,10000,6.0,False,True,True
+7,TRT007,Hip Replacement,Orthopedics,15000,45000,6.75,True,False,True
+8,TRT008,Knee Replacement,Orthopedics,12000,40000,0.35,True,True,True
+9,TRT009,Appendectomy,Emergency,5000,20000,10.41,True,False,True
+10,TRT010,Dialysis,Nephrology,200,500,0.92,False,True,True
+11,TRT011,Colonoscopy,Gastroenterology,1000,4000,8.86,False,False,True
+12,TRT012,Endoscopy,Gastroenterology,800,3000,7.0,False,False,True
+13,TRT013,ECG,Cardiology,100,500,7.15,True,False,True
+14,TRT014,Echocardiogram,Cardiology,800,3000,10.6,False,True,True
+15,TRT015,Blood Test,Pathology,50,400,8.37,False,True,True
+16,TRT016,Urinalysis,Pathology,30,150,6.5,False,True,True
+17,TRT017,X-Ray,Radiology,100,800,10.02,True,False,True
+18,TRT018,Ultrasound,Radiology,200,1500,8.01,False,False,True
+19,TRT019,Spinal Fusion,Orthopedics,40000,120000,8.25,False,False,True
+20,TRT020,Cataract Surgery,Ophthalmology,3000,8000,1.22,False,False,True
+21,TRT021,Tonsillectomy,ENT,3000,9000,8.77,True,True,True
+22,TRT022,Laparoscopic Surgery,Surgical,4000,18000,1.62,False,True,True
+23,TRT023,Biopsy,Oncology,500,3000,10.59,True,False,True
+24,TRT024,Vaccination,Pediatrics,50,300,8.09,False,False,True
+25,TRT025,Physical Therapy,Rehabilitation,100,500,5.72,True,True,True
+26,TRT026,Psychiatric Evaluation,Psychiatry,200,1000,0.88,True,False,True
+27,TRT027,Insulin Therapy,Endocrinology,100,500,2.69,True,True,True
+28,TRT028,Bronchoscopy,Pulmonology,2000,8000,3.98,True,True,True
+29,TRT029,Cystoscopy,Urology,1500,6000,2.21,True,True,True
+30,TRT030,Skin Biopsy,Dermatology,300,1500,2.97,False,False,True

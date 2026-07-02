@@ -1,0 +1,16 @@
+InsuranceKey,InsuranceID,ProviderName,PlanType,DeductibleUSD,CopayUSD,CoinsurancePct,MaxOutOfPocketUSD,CoverageType,IsGovernmentPlan,IsActive
+1,INS001,Blue Cross Blue Shield,HMO,5648,29,27,11275,Individual,False,True
+2,INS002,Aetna,PPO,2056,75,27,16761,Individual,False,True
+3,INS003,UnitedHealthcare,POS,724,32,17,11937,Individual,False,True
+4,INS004,Cigna,Catastrophic,105,26,5,11614,Individual,False,True
+5,INS005,Humana,HMO,3718,13,12,11404,Family,False,True
+6,INS006,Kaiser Permanente,PPO,4324,85,3,12201,Individual,False,True
+7,INS007,Anthem,HMO,8909,33,0,12333,Individual,False,True
+8,INS008,Molina Healthcare,Catastrophic,7476,42,21,4572,Group,False,True
+9,INS009,Centene,POS,1360,37,6,11004,Group,False,True
+10,INS010,WellCare,PPO,8028,51,21,17390,Family,False,True
+11,INS011,Medicare,HMO,1013,39,28,9433,Family,True,True
+12,INS012,Medicaid,HMO,6338,57,26,3167,Individual,True,True
+13,INS013,Tricare,EPO,4714,97,16,4118,Group,True,True
+14,INS014,Oscar Health,Catastrophic,7037,96,18,8851,Family,False,True
+15,INS015,Ambetter,Catastrophic,4621,18,26,16633,Individual,False,True

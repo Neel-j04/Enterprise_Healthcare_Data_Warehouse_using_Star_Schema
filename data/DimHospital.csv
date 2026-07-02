@@ -1,0 +1,16 @@
+HospitalKey,HospitalID,HospitalName,HospitalType,City,State,BedCapacity,AccreditationStatus,FoundedYear,IsActive
+1,HSP0001,St. Mary's Medical Center,General,North Judithbury,CO,1200,Provisional,2008,True
+2,HSP0002,General Hospital,Pediatric,East Jill,PR,818,Accredited,1976,True
+3,HSP0003,University Health System,Community,New Roberttown,IN,279,Accredited,2003,True
+4,HSP0004,Children's Hospital,Teaching,East Jessetown,VI,1275,Provisional,1990,True
+5,HSP0005,Regional Medical Center,Teaching,Lake Debra,CT,730,Pending,1996,True
+6,HSP0006,Memorial Hospital,Rehabilitation,Robinsonshire,MS,800,Accredited,1995,True
+7,HSP0007,Providence Health,General,Lisatown,KY,619,Pending,1961,True
+8,HSP0008,Sacred Heart Hospital,Pediatric,Lake Roberto,NH,355,Pending,1971,True
+9,HSP0009,City Medical Center,Specialty,Ericmouth,SC,1397,Accredited,1978,True
+10,HSP0010,Sunrise Health Campus,General,North Noahstad,MP,1194,Provisional,1979,True
+11,HSP0011,Valley Care Hospital,Community,Cassandraton,MN,1001,Accredited,1952,True
+12,HSP0012,Northside Medical,Rehabilitation,Herrerafurt,GA,663,Pending,1982,True
+13,HSP0013,Westlake General,Pediatric,New Kellystad,MN,1251,Pending,1959,True
+14,HSP0014,Lakeside Community Hospital,Pediatric,Lake Chad,MI,863,Provisional,1994,True
+15,HSP0015,Summit Health,Pediatric,Port Keith,IL,720,Accredited,1990,True

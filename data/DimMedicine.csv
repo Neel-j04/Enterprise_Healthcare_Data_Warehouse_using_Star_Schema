@@ -1,0 +1,26 @@
+MedicineKey,MedicineID,MedicineName,Category,RouteOfAdmin,UnitCostMin,UnitCostMax,Manufacturer,RequiresPrescription,IsControlled,IsActive
+1,MED001,Aspirin,Analgesic,Oral,5,50,Novartis,True,False,True
+2,MED002,Metformin,Antidiabetic,Oral,10,80,Merck,True,False,True
+3,MED003,Lisinopril,ACE Inhibitor,Oral,15,100,Roche,True,False,True
+4,MED004,Atorvastatin,Statin,Oral,20,150,Merck,True,False,True
+5,MED005,Omeprazole,PPI,Oral,12,90,Bayer,True,False,True
+6,MED006,Amoxicillin,Antibiotic,Oral,8,60,Novartis,True,False,True
+7,MED007,Ibuprofen,NSAID,Oral,5,40,Pfizer,True,False,True
+8,MED008,Morphine,Opioid,IV,50,400,Sanofi,True,True,True
+9,MED009,Insulin Glargine,Insulin,Injection,80,600,Novartis,True,False,True
+10,MED010,Warfarin,Anticoagulant,Oral,15,120,Abbott,True,True,True
+11,MED011,Metoprolol,Beta Blocker,Oral,10,80,Bayer,True,False,True
+12,MED012,Furosemide,Diuretic,Oral,8,60,Bayer,True,False,True
+13,MED013,Amlodipine,Calcium Blocker,Oral,12,90,Merck,True,False,True
+14,MED014,Prednisolone,Corticosteroid,Oral,10,100,J&J,True,False,True
+15,MED015,Ciprofloxacin,Antibiotic,Oral,20,150,Novartis,True,False,True
+16,MED016,Ondansetron,Antiemetic,IV,30,200,Sanofi,True,False,True
+17,MED017,Gabapentin,Anticonvulsant,Oral,15,120,GSK,True,False,True
+18,MED018,Levothyroxine,Thyroid Hormone,Oral,10,80,Roche,True,False,True
+19,MED019,Clopidogrel,Antiplatelet,Oral,25,200,Roche,True,False,True
+20,MED020,Pantoprazole,PPI,IV,40,300,J&J,True,False,True
+21,MED021,Paracetamol,Analgesic,Oral,4,30,Roche,True,False,True
+22,MED022,Dexamethasone,Corticosteroid,IV,30,250,GSK,True,False,True
+23,MED023,Heparin,Anticoagulant,IV,60,500,Roche,True,True,True
+24,MED024,Albuterol,Bronchodilator,Inhaler,25,180,Sanofi,True,False,True
+25,MED025,Sertraline,SSRI,Oral,15,120,AstraZeneca,True,False,True
